@@ -116,15 +116,15 @@ iframe{
 }
 @media (max-width: 768px) {
   iframe {
-    width: 75%;
-    height: 10.5rem;
+    width: 90%;
+    height: 13rem;
   }
 }
 
 @media (max-width: 768px) {
   #download {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 2px;
+    margin: 5px;
   }
 }
 
