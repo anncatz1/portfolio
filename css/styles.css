@@ -110,21 +110,21 @@ ul {
 
 iframe{
   border-radius: 10px;
-  width: 50rem;
+  width: 75%;
   height: 23rem;
   max-width: 650px;
 }
-/* @media (min-width: 1200px) {
+@media (max-width: 768px) {
   iframe {
     width: 75%;
-    height: 23rem;
+    height: 10.5rem;
   }
-} */
+}
 
 @media (max-width: 768px) {
   #download {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 
