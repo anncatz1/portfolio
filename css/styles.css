@@ -614,6 +614,29 @@ progress {
   }
 }
 
+.display-9 {
+  font-size: calc(1.225rem);
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .display-7 {
+    font-size: 1rem;
+  }
+}
+
+.display-10 {
+  font-size: calc(1rem);
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .display-7 {
+    font-size: 0.9rem;
+  }
+}
+
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -4234,6 +4257,13 @@ textarea.form-control-lg {
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-radius: var(--bs-card-border-radius);
 }
+
+/* .card {
+  flex-basis: 300px;
+  flex-shrink: 1;
+  flex-grow: 0;
+} */
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -8139,6 +8169,10 @@ textarea.form-control-lg {
 
 .fs-6 {
   font-size: 1rem !important;
+}
+
+.fs-7 {
+  font-size: 0.9rem !important;
 }
 
 .fst-italic {
