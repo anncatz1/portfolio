@@ -114,10 +114,17 @@ iframe{
   height: 23rem;
   max-width: 650px;
 }
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   iframe {
     width: 75%;
     height: 23rem;
+  }
+} */
+
+@media (max-width: 768px) {
+  #download {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
