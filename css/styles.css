@@ -1,4 +1,7 @@
 @charset "UTF-8";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /*!
 * Start Bootstrap - Personal v1.0.1 (https://startbootstrap.com/template-overviews/personal)
 * Copyright 2013-2023 Start Bootstrap
@@ -119,6 +122,11 @@ iframe{
     width: 100%;
     height: 10rem;
   }
+}
+
+.music {
+  width: 100%;
+  border-radius:12px
 }
 
 @media (max-width: 768px) {
@@ -575,7 +583,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
+@media (max-width: 768px) {
   .display-5 {
     font-size: 3rem;
   }
@@ -586,7 +594,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
+@media (max-width: 768px) {
   .display-6 {
     font-size: 2.5rem;
   }
@@ -597,7 +605,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
+@media (max-width: 768px) {
   .display-7 {
     font-size: 2rem;
   }
@@ -608,7 +616,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
+@media (max-width: 768px) {
   .display-8 {
     font-size: 1.5rem;
   }
@@ -619,7 +627,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
+@media (max-width: 768px) {
   .display-9 {
     font-size: 1rem;
   }
@@ -630,7 +638,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
+@media (max-width: 768px) {
   .display-10 {
     font-size: 0.9rem;
   }
@@ -678,7 +686,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
 
