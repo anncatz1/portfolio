@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" data-bs-theme="dark">
   <head>
     <meta charset="utf-8" />
@@ -56,9 +56,14 @@
               <li class="nav-item">
                 <a class="nav-link" href="projects.html">Projects</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="hobbies.html">Hobbies</a>
-              </li>
+              <div class="dropdown nav-item">
+                <p class="dropbtn nav-link">Hobbies</p>
+                <div class="dropdown-content nav-item">
+                  <a class="nav-link" href="dance.html">Dance</a>
+                  <a class="nav-link" href="listening.html">Music</a>
+                  <a class="nav-link" href="reading.html">Books</a>
+                </div>
+              </div>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
@@ -67,17 +72,69 @@
         </div>
       </nav>
     </main>
+
     <section class="py-2">
       <div class="container px-5 mb-5">
-        <div class="text-center mb-5">
-          <h1 class="display-5 fw-bolder mb-4">
-            <span class="text-gradient d-inline"
-              >What I'm currently listening to</span
-            >
+        <div class="text-center mb-5 row">
+          <h1 class="display-5 fw-bolder mb-5 mt-5">
+            <span class="text-gradient d-inline">Books I've read in 2023</span>
           </h1>
+          <div class="row gap-0 mb-3">
+            <div class="card col-md-3">
+              <img
+                class="card-img-top"
+                src="./assets/books/thegoldencouple.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-normal">
+                  The Golden Couple <br />
+                  by Sarah Pekkanen
+                </h5>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <img
+                class="card-img-top"
+                src="./assets/books/tomorrow.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-normal">
+                  Tomorrow and Tomorrow and Tomorrow <br />by Gabrielle Zevin
+                </h5>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <img
+                class="card-img-top"
+                src="./assets/books/thespectacular.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-normal">
+                  The Spectacular <br />
+                  by Fiona Davis
+                </h5>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <img
+                class="card-img-top"
+                src="./assets/books/hellobeautiful.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-normal">
+                  Hello Beautiful <br />by Ann Napolitano
+                </h5>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
     <!-- Footer-->
     <footer class="bg-white py-4 mt-auto">
       <div class="container px-5">
