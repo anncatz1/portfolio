@@ -125,7 +125,11 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: var(--bs-nav-tabs-link-active-bg);
+  background-color: #fff !important;
+  width: 95px;
+  opacity: 1;
+  border-radius: 5px;
+  padding: 8px;
 }
 
 /* Show the dropdown menu on hover */
@@ -3951,6 +3955,10 @@ fieldset:disabled .btn {
   background-color: var(--bs-nav-tabs-link-active-bg);
   border-color: var(--bs-nav-tabs-link-active-border-color);
 }
+/* .nav-item,
+.nav-link {
+  background-color: var(--bs-nav-tabs-link-active-bg);
+} */
 .nav-tabs .dropdown-menu {
   margin-top: calc(-1 * var(--bs-nav-tabs-border-width));
   border-top-left-radius: 0;
@@ -4015,7 +4023,8 @@ fieldset:disabled .btn {
   --bs-navbar-brand-font-size: 1.25rem;
   --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);
-  --bs-navbar-nav-link-padding-x: 0.5rem;
+  --bs-nav-link-font-size: 1rem;
+  --bs-navbar-nav-link-padding-x: 0.7rem;
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
   --bs-navbar-toggler-font-size: 1.25rem;
@@ -4069,6 +4078,7 @@ fieldset:disabled .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  align-items: center;
 }
 .navbar-nav .show > .nav-link,
 .navbar-nav .nav-link.active {
@@ -12227,6 +12237,7 @@ html {
 .dropbtn {
   border: none;
   transition: none;
+  margin-bottom: 0;
 }
 
 .dropbtn:hover {
